@@ -53,7 +53,7 @@ class Quiz {
 //verifique se a condição para a resposta dos jogadores e a resposta correta são iguais
 //se for igual preencha com verde
 //se não preencha com vermelho
-        
+   if(correctAns){fill("green")}     
 
         display_Answers+=30;
         textSize(20);
